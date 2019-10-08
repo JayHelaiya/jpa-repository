@@ -5,8 +5,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.jay.demo.model.Address;
-import com.jay.demo.model.Employee;
+import com.jay.demo.model.Person;
 import com.jay.demo.model.Phone;
 
 
@@ -15,8 +14,8 @@ public class HibernateExample {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
-		//test1();
-		loadData();
+		test1();
+		//loadData();
 	}
 	
 	// save vs persist
@@ -24,9 +23,8 @@ public class HibernateExample {
 	public static void loadData() {
 	
 	    Session session = HibernateUtil.getSessionFactory().openSession();
-	    Employee emp = (Employee)session.get(Employee.class, 1L);
-	   // Employee emp1 = (Employee)session.get(Employee.class, 5L);
-	    System.out.println(emp);
+	    Person person = (Person)session.get(Person.class, 1L);
+	    System.out.println(person);
 	}
 
 	public static void test1() {
@@ -34,45 +32,24 @@ public class HibernateExample {
 			    Session session = HibernateUtil.getSessionFactory().openSession();
 					
 				//save example - without transaction
-				Employee emp = getTestEmployee();
-				long id = (Long) session.save(emp);
-				/*emp.setName("kiya");
-				long id1 = (Long) session.save(emp);*/
-				System.out.println("1. Employee save called without transaction, id="+id);
+			    Person person = getPrepareInstance();
+				session.save(person);
 				session.flush(); //address will not get saved without this
 				System.out.println("*****");
-				
-				//save example - with transaction
-				
-			/*	Session session1 = HibernateUtil.getSessionFactory().openSession();
-				Transaction tx1 = session1.beginTransaction();
-				Employee emp1 = getTestEmployee();
-				 session1.persist(emp1);
-				 session1.evict(emp1);
-				 session1.persist(emp1);
-				 session1.flush();
-				 System.out.println("2. Employee save called with transaction, id=");
-				System.out.println("3. Before committing save transaction");
-				tx1.commit();
-				System.out.println("4. After committing save transaction");
-				System.out.println("*****");*/
-				
-			
 				session.close();
 	}
 	
-	public static Employee getTestEmployee() {
-		Employee emp = new Employee();
-		List<Phone> phones=new ArrayList();
+	public static Person getPrepareInstance() {
+		Person jay = new Person();
+		jay.setName("jayesh helaiya");
+
+		List<Phone> phones=new ArrayList<Phone>();
+		phones.add(new Phone("redme note5 pro",jay));
+		phones.add(new Phone("nokia 1209",jay));
+		phones.add(new Phone("samsang 133",jay));
 		
-		emp.setName("Test Emp");
-		emp.setSalary(1000);
-		add.setAddressLine1("Test address1");
-		add.setCity("Test City");
-		add.setZipcode("12121");
-		add.setEmployee(emp);
-		emp.setAddress(add);
-		return emp;
+		jay.setPhones(phones);
+		return jay;
 	}
 
 }

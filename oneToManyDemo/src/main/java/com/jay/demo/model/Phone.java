@@ -14,10 +14,19 @@ public class Phone {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-
+	private String name;
+	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="OWNER_ID")
-	private Employee owner;
+	private Person owner;
+	
+	public Phone() {}
+	
+	public Phone(String name,Person owner) {
+		this.name=name;
+		this.owner=owner;
+		
+	}
 	
 	public long getId() {
 		return id;
@@ -27,11 +36,19 @@ public class Phone {
 		this.id = id;
 	}
 
-	public Employee getOwner() {
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Person getOwner() {
 		return owner;
 	}
 
-	public void setOwner(Employee owner) {
+	public void setOwner(Person owner) {
 		this.owner = owner;
 	}
 
