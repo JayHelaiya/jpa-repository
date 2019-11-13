@@ -49,3 +49,17 @@
 8) update Vs merge ?
 
 	https://www.dineshonjava.com/difference-between-merge-and-update-methods-in-hibernate/
+	
+9) save VS saveorUpdate	?
+
+	http://www.javawebtutor.com/articles/hibernate/hibernate-difference-between-save-saveorupdate-and-persist.php
+	
+10) What is cascading in Hibernate and cascade-example ? 
+		
+	https://stackoverflow.com/questions/17087164/what-is-cascading-in-hibernate
+	https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-cascade-example/
+
+11) Hibernate – fetching strategies examples
+
+		https://www.mkyong.com/hibernate/hibernate-fetching-strategies-examples/
+		

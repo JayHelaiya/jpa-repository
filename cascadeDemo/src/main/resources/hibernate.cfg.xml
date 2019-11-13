@@ -14,7 +14,7 @@
         <property name="format_sql">false</property>
         
         <property name="connection.autocommit">true</property>
-        <mapping class="com.javabycode.hibernate.model.Employee"/>
-        <mapping class="com.javabycode.hibernate.model.Address"/>
+        <mapping class="com.javabycode.hibernate.model.Project"/>
+        <mapping class="com.javabycode.hibernate.model.Student"/>
     </session-factory>
 </hibernate-configuration>
