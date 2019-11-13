@@ -13,7 +13,7 @@
 		<property name="hbm2ddl.auto">update</property>        
         <property name="format_sql">false</property>
         
-      <!--   <property name="connection.autocommit">true</property> -->
+        <property name="connection.autocommit">true</property>
         <mapping class="com.jay.demo.model.Person"/>
         <mapping class="com.jay.demo.model.Phone"/>
     </session-factory>

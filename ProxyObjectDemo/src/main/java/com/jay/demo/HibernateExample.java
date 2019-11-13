@@ -20,7 +20,7 @@ public class HibernateExample {
 	public static void loadData() {
 	
 	    Session session = HibernateUtil.getSessionFactory().openSession();
-	    Employee emp = (Employee)session.get(Employee.class, 1L);
+	    Employee emp = (Employee)session.load(Employee.class, 1L);
 	   // Employee emp1 = (Employee)session.get(Employee.class, 5L);
 	    System.out.println(emp);
 	}
@@ -32,10 +32,11 @@ public class HibernateExample {
 				//save example - without transaction
 				Employee emp = getTestEmployee();
 				long id = (Long) session.save(emp);
-				/*emp.setName("kiya");
-				long id1 = (Long) session.save(emp);*/
 				System.out.println("1. Employee save called without transaction, id="+id);
-				session.flush(); //address will not get saved without this
+			/*//	session.flush(); //address will not get saved without this
+				emp.setName("kiya");
+				long id1 = (Long) session.save(emp);*/
+				session.flush();
 				System.out.println("*****");
 				
 				//save example - with transaction

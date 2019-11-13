@@ -1,0 +1,101 @@
+
+Š
+squid:S1354"YReduce the total number of break and continue statements in this loop to use at most one.(ÓÜù—ÿÿÿÿÿH“RMINORZ
+CODE_SMELL
+j
+squid:S106&"9Replace this use of System.out or System.err by a logger.(± ŠĞüÿÿÿÿH”RMAJORZ
+CODE_SMELL
+j
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ºª×”úÿÿÿÿH•RMAJORZ
+CODE_SMELL
+j
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ÑÉÌñøÿÿÿÿH–RMAJORZ
+CODE_SMELL
+e
+squid:S106T"9Replace this use of System.out or System.err by a logger.(·°ÿÒH—RMAJORZ
+CODE_SMELL
+j
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ƒåòÔıÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+j
+squid:S106]"9Replace this use of System.out or System.err by a logger.(å›¦ÕøÿÿÿÿH™RMAJORZ
+CODE_SMELL
+j
+squid:S106^"9Replace this use of System.out or System.err by a logger.(üçÌİøÿÿÿÿHšRMAJORZ
+CODE_SMELL
+j
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ÒÏ­£üÿÿÿÿH›RMAJORZ
+CODE_SMELL
+j
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ÈŞªµûÿÿÿÿHœRMAJORZ
+CODE_SMELL
+j
+squid:S106a"9Replace this use of System.out or System.err by a logger.(ğ³æÂûÿÿÿÿHRMAJORZ
+CODE_SMELL
+e
+squid:S106{"9Replace this use of System.out or System.err by a logger.(¸¹Ú‚HRMAJORZ
+CODE_SMELL
+k
+squid:S106™"9Replace this use of System.out or System.err by a logger.(åİ‘©øÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+f
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Õ°”H RMAJORZ
+CODE_SMELL
+esquid:S2589’"7Remove this expression which always evaluates to "true"(°ä‹ÀH¡RMAJORZ
+CODE_SMELL
+‚squid:S3776!"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ã¹¬ãH¢RCRITICALZ
+CODE_SMELL
+ƒsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ï‰†¡H£RCRITICALZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethod0"6Remove this use of "SimpleConsumer"; it is deprecated.(’ôôşÿÿÿÿH¤RMINORZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethod0"6Remove this use of "SimpleConsumer"; it is deprecated.(’ôôşÿÿÿÿH¥RMINORZ
+CODE_SMELL
+tsquid:CallToDeprecatedMethod6"6Remove this use of "SimpleConsumer"; it is deprecated.(’áËH¦RMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod8"4Remove this use of "FetchRequest"; it is deprecated.(Š¶’H§RMINORZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethod8";Remove this use of "FetchRequestBuilder"; it is deprecated.(Š¶’H¨RMINORZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethodq"6Remove this use of "SimpleConsumer"; it is deprecated.(‰µÍ†ùÿÿÿÿH©RMINORZ
+CODE_SMELL
+usquid:CallToDeprecatedMethod¡"6Remove this use of "SimpleConsumer"; it is deprecated.(¯Ú˜HªRMINORZ
+CODE_SMELL
+usquid:CallToDeprecatedMethod£"6Remove this use of "SimpleConsumer"; it is deprecated.(ÛÃ¬ŸH«RMINORZ
+CODE_SMELL
+ƒ squid:LabelsShouldNotBeUsedCheckŸ";Refactor the code to remove this label and the need for it.(åÍœûÿÿÿÿH¬RMAJORZ
+CODE_SMELL
+[squid:S1172‚"-Remove this unused method parameter "a_port".(Ö¾ÉÉH­RMAJORZ
+CODE_SMELL
+qsquid:S2142j"FEither re-interrupt this method or rethrow the "InterruptedException".(øôÔ×ûÿÿÿÿH®RMAJORZBUG
+rsquid:S2142•"FEither re-interrupt this method or rethrow the "InterruptedException".(øôÔ×ûÿÿÿÿH¯RMAJORZBUG
+\squid:S00108j")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿH°RMAJORZ
+CODE_SMELL
+]squid:S00108•")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿH±RMAJORZ
+CODE_SMELL
+zsquid:S00112š"FDefine and throw a dedicated exception instead of using a generic one.(ëŞ™ûıÿÿÿÿH²RMAJORZ
+CODE_SMELL
+usquid:S00112‚"FDefine and throw a dedicated exception instead of using a generic one.(Ö¾ÉÉH³RMAJORZ
+CODE_SMELL
+‰squid:S00116"[Rename this field "m_brokerInfoList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§öƒ©H´RMINORZ
+CODE_SMELL
+squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¹¬ãHµRMINORZ
+CODE_SMELL
+squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¹¬ãH¶RMINORZ
+CODE_SMELL
+squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¹¬ãH·RMINORZ
+CODE_SMELL
+€squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¾ÉÉH¸RMINORZ
+CODE_SMELL
+€squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¾ÉÉH¹RMINORZ
+CODE_SMELL
+€squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¾ÉÉHºRMINORZ
+CODE_SMELL
+€squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¾ÉÉH»RMINORZ
+CODE_SMELL
+€squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï‰†¡H¼RMINORZ
+CODE_SMELL
+€squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï‰†¡H½RMINORZ
+CODE_SMELL
+csquid:S1153]"1Directly append the argument of String.valueOf().(å›¦ÕøÿÿÿÿH¾RMINORZ
+CODE_SMELL

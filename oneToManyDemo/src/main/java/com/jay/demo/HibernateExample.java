@@ -14,8 +14,8 @@ public class HibernateExample {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
-		test1();
-		//loadData();
+		//test1();
+		loadData();
 	}
 	
 	// save vs persist
@@ -23,8 +23,11 @@ public class HibernateExample {
 	public static void loadData() {
 	
 	    Session session = HibernateUtil.getSessionFactory().openSession();
-	    Person person = (Person)session.get(Person.class, 1L);
-	    System.out.println(person);
+	    Person person = (Person)session.load(Person.class, 1L);
+	    System.out.println(person.getId());
+	    System.out.println(person.getName());
+	    System.out.println(person.getPhones());
+	    
 	}
 
 	public static void test1() {
@@ -34,7 +37,7 @@ public class HibernateExample {
 				//save example - without transaction
 			    Person person = getPrepareInstance();
 				session.save(person);
-				session.flush(); //address will not get saved without this
+				session.flush(); 
 				System.out.println("*****");
 				session.close();
 	}
