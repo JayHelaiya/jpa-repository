@@ -1,0 +1,12 @@
+1)	Different Types of SQL Joins 
+		- https://www.w3resource.com/sql/joins/sql-joins.php
+		- https://www.w3resource.com/sql/joins/perform-a-self-join.php
+		- https://www.dotnettricks.com/learn/sqlserver/different-types-of-sql-joins
+		
+	Use of USING keyword in JOINNING 
+	
+		- https://way2tutorial.com/sql/sql-equi-join.php
+
+	Difference between inner join and equi join and natural join
+
+		- https://www.dotnettricks.com/learn/sqlserver/difference-between-inner-join-and-equi-join-and-natural-join

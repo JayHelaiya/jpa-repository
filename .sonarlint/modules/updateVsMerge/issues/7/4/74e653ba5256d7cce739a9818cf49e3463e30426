@@ -1,17 +1,17 @@
 
-`squid:S1481!",Remove this unused "person1" local variable.(º£Ö«8Ü’ÕÂﬁ-H»	RMINORZ
+`squid:S1481!",Remove this unused "person1" local variable.(º£Ö«8Ü’ÕÂﬁ-H¿RMINORZ
+CODE_SMELL
+`squid:S14812",Remove this unused "person1" local variable.(º£Ö«8ÀπÍÂﬁ-H¡RMINORZ
+CODE_SMELL
+Ñsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Éó¯ìˇˇˇˇˇ8ÓíØÂﬁ-H¬RMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(üº˛ë8ˇèÈ‰ﬁ-Hû	RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(üº˛ë8ˇèÈ‰ﬁ-H√RMAJORZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(π¬‡∑˝ˇˇˇˇ8ˇèÈ‰ﬁ-Hù	RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(π¬‡∑˝ˇˇˇˇ8ˇèÈ‰ﬁ-HƒRMAJORZ
 CODE_SMELL
-osquid:S18542";Remove this useless assignment to local variable "person1".(º£Ö«8ÀπÍÂﬁ-H’	RMAJORZ
+osquid:S18542";Remove this useless assignment to local variable "person1".(º£Ö«8ÀπÍÂﬁ-H≈RMAJORZ
 CODE_SMELL
-`squid:S14812",Remove this unused "person1" local variable.(º£Ö«8ÀπÍÂﬁ-H”	RMINORZ
-CODE_SMELL
-Ñsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Éó¯ìˇˇˇˇˇ8ÓíØÂﬁ-H¿	RMAJORZ
-CODE_SMELL
-osquid:S1854!";Remove this useless assignment to local variable "person1".(º£Ö«8Ü’ÕÂﬁ-H…	RMAJORZ
+osquid:S1854!";Remove this useless assignment to local variable "person1".(º£Ö«8Ü’ÕÂﬁ-H∆RMAJORZ
 CODE_SMELL
