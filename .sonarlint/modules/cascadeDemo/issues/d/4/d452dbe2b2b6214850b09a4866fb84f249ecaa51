@@ -1,9 +1,9 @@
 
-l
-squid:S1060"9Replace this use of System.out or System.err by a logger.(²†ξ™8ξέ«ζ-HάRMAJORZ
-CODE_SMELL
-~squid:S1192"GDefine a constant instead of duplicating this literal "Spring" 4 times.(ΥÒª¥8ξέ«ζ-HέRCRITICALZ
+~squid:S1192"GDefine a constant instead of duplicating this literal "Spring" 4 times.(ΥÒª¥8ξέ«ζ-H§RCRITICALZ
 CODE_SMELL
 l
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(²†ξ™8ΏΧζ-HήRMAJORZ
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(²†ξ™8ΏΧζ-H¨RMAJORZ
+CODE_SMELL
+l
+squid:S1060"9Replace this use of System.out or System.err by a logger.(²†ξ™8ξέ«ζ-H©RMAJORZ
 CODE_SMELL

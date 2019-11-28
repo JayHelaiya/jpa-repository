@@ -1,0 +1,43 @@
+
+l
+squid:S106h"9Replace this use of System.out or System.err by a logger.(ş™À¦8ª™ë-H¿RMAJORZ
+CODE_SMELL
+£squid:S1319?"jThe type of the "hm" object should be an interface such as "Map" rather than the implementation "HashMap".(ñë¸«øÿÿÿÿ8ª™ë-H¼RMINORZ
+CODE_SMELL
+l
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ŒòÔ‚8ª™ë-H¾RMAJORZ
+CODE_SMELL
+q
+squid:S106["9Replace this use of System.out or System.err by a logger.(ÀÑÓèùÿÿÿÿ8Ÿ’ë-H°RMAJORZ
+CODE_SMELL
+q
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ßšÕÑøÿÿÿÿ8Ÿ’ë-H³RMAJORZ
+CODE_SMELL
+l
+squid:S106b"9Replace this use of System.out or System.err by a logger.(†ıŸĞ8ª™ë-H½RMAJORZ
+CODE_SMELL
+¡squid:S13193"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(™©–Û8ª™ë-HÉRMINORZ
+CODE_SMELL
+l
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(‰Ï®ì8ª™ë-HÁRMAJORZ
+CODE_SMELL
+l
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(Œû™’8Ÿ’ë-H¶RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Àèòâúÿÿÿÿ8Ï–¯ë-HÖRMAJORZ
+CODE_SMELL
+isquid:S1854^"5Remove this useless assignment to local variable "s".(Ê‰Úú8ª™ë-HÂRMAJORZ
+CODE_SMELL
+q
+squid:S106a"9Replace this use of System.out or System.err by a logger.(à„½•üÿÿÿÿ8Ÿ’ë-H²RMAJORZ
+CODE_SMELL
+l
+squid:S106@"9Replace this use of System.out or System.err by a logger.(ÏÔŒÏ8Ÿ’ë-HµRMAJORZ
+CODE_SMELL
+l
+squid:S106W"9Replace this use of System.out or System.err by a logger.(û”­8ª™ë-HÀRMAJORZ
+CODE_SMELL
+nsquid:S1854]"5Remove this useless assignment to local variable "i".(Ñì§Åúÿÿÿÿ8ª™ë-HÃRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(é²§¼8šÛÁë-HØRMAJORZ
+CODE_SMELL
