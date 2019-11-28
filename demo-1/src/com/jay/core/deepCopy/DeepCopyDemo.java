@@ -1,14 +1,17 @@
-package com.jay.core.ShallowCopy;
+package com.jay.core.deepCopy;
 
 import java.util.Arrays;
 
 
- class ShallowCopy {
+ class DeepCopy {
 	
 	private int[] data;
 	
-	public ShallowCopy(int[] data) {
-		this.data=data;
+	public DeepCopy(int[] data) {
+		this.data=new int[data.length];
+		for (int i = 0; i < data.length; i++) {
+			this.data[i]=data[i];
+		}
 	}
 	
 	public void showData() { 
@@ -18,12 +21,12 @@ import java.util.Arrays;
 
 //------------------------------------------ 
  
- public class ShallowCopyDemo {
+ public class DeepCopyDemo {
 		
 		public static void main(String[] args) {
 			
 			int[] value= {2,5,4};
-			ShallowCopy copy=new ShallowCopy(value);
+			DeepCopy copy=new DeepCopy(value);
 			copy.showData();
 			value[1]=8;
 			copy.showData();

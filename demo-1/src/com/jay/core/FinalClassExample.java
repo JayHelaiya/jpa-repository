@@ -20,7 +20,7 @@ public final class FinalClassExample {
 	 * @param hm
 	 */
 	
-	/*public FinalClassExample(int i, String n, HashMap<String,String> hm){
+	public FinalClassExample(int i, String n, HashMap<String,String> hm){
 		System.out.println("Performing Deep  for Object initialization");
 		this.id=i;
 		this.name=n;
@@ -32,7 +32,7 @@ public final class FinalClassExample {
 			tempMap.put(key, hm.get(key));
 		}
 		this.testMap=tempMap;
-	}*/
+	}
 	
 	
 	
@@ -60,13 +60,13 @@ public final class FinalClassExample {
 	 * @param hm
 	 */
 	
-	public FinalClassExample(int i, String n, HashMap<String,String> hm){
+/*	public FinalClassExample(int i, String n, HashMap<String,String> hm){
 		System.out.println("Performing Shallow  for Object initialization");
 		this.id=i;
 		this.name=n;
 		this.testMap=hm;
 	}
-	
+	*/
 	/**
 	 * To test the consequences of Shallow  and how to avoid it with Deep  for creating immutable classes
 	 * @param args
